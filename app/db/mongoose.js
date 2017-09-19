@@ -5,8 +5,13 @@
 const mongoose = require('mongoose');
 const dbConfig = require('../config').db;
 
+const host = dbConfig.connection.host;
+const username = dbConfig.connection.username;
+const password = dbConfig.connection.password;
+const databaseName = dbConfig.connection.database;
+
 mongoose.connect(
-  `${dbConfig.client}://${dbConfig.connection.host}/${dbConfig.connection.database}`,
+  `${dbConfig.client}://${username}:${password}@${host}/${databaseName}`,
   { useMongoClient: true }
 );
 

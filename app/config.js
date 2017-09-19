@@ -7,6 +7,8 @@ const config = {
     client: 'mongodb',
     connection: {
       database: 'rbac_db',
+      username: '',
+      password: '',
       host: 'localhost'
     }
   },
