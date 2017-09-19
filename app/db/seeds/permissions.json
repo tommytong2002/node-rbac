@@ -1,0 +1,6 @@
+[
+  { "name": "CREATE", "resources": [], "actions": [] },
+  { "name": "UPDATE", "resources": [], "actions": [] },
+  { "name": "DELETE", "resources": [], "actions": [] },
+  { "name": "READ", "resources": [], "actions": [] }
+]

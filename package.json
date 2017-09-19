@@ -1,0 +1,35 @@
+{
+  "name": "node-rbac",
+  "version": "1.0.0",
+  "description": "A Role-based access control",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "gulp start",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdessie/node-rbac.git"
+  },
+  "keywords": [
+    "node-rbac",
+    "rbac"
+  ],
+  "author": "Gedion Dessie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdessie/node-rbac/issues"
+  },
+  "homepage": "https://github.com/gdessie/node-rbac#readme",
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.0",
+    "gulp-nodemon": "^2.2.1"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "mongoose": "^4.11.10",
+    "restify": "^5.2.0"
+  }
+}
